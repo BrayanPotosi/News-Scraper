@@ -1,0 +1,6 @@
+trend_news_link = //div[@class="containerMostViewed"]/div/ul/li/div[@class="d-flex"]/div[@class="V_Trends"]/a/@href
+top_second_news_link = //div[@class="d-flex top-second-news"]/div[@class="flex-grow-1 mr-5"]/div[@class="row row-cols-3"]/div[@class="col mb-4"]/div[@class="news V_Title_Img"]/h2/a/@href
+second_news_link = //div[@class="d-flex mb-6 second-news"]/div[@class="flex-grow-1 mr-4 mb-0"]/div[@class="row row-cols-3"]/div[@class="col mb-3"]/div/a/@href
+mew_title = //div[@class="mb-auto"]/h2/span/text()
+new_resume = //div[@class="lead"]/p/text()
+new_text = //div[@class="html-content"]/p[not(@class)]/text()
