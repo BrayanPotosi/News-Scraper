@@ -15,9 +15,8 @@ XPATH_BODY = '//div[@class="html-content"]/p[not(@class)]/text()'
 
 
 def get_title(link):
-
     url = link.split('/')[-1]
-    title_list=url.split('-')[:-1]
+    title_list = url.split('-')[:-1]
     title = " ".join(title_list)
     return title
 
