@@ -18,6 +18,7 @@ def get_title(link):
     url = link.split('/')[-1]
     title_list = url.split('-')[:-1]
     title = " ".join(title_list)
+
     return title
 
 
@@ -31,7 +32,6 @@ def parse_notice(link, folder_title):
                 title = get_title(link)
                 summary = parsed.xpath(XPATH_SUMMARY)[0]
                 body = parsed.xpath(XPATH_BODY)
-
             except IndexError:
                 return
 
